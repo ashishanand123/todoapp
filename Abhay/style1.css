@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(undraw_To_do_list_re_9nt7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 10px;
+    border: 1px solid #BCB9B8;
+    width: 40%;
+    margin: 10px 350px 10px;
+    background-color: lightgreen;
+}
+
+.container .input {
+    width: 87%;
+    height: 20px;
+}
+
+.container .btn {
+    width: 50px;
+    height: 25px;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container li {
+    color: red;
+}
+
+.container li a {
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container #error {
+    color: red;
+    font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+    background-color: lightblue;
+}
